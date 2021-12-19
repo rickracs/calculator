@@ -3,6 +3,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 #calculator {
@@ -12,6 +13,10 @@ body {
    border: 2px solid black;
    display:flex;
    flex-direction: column;
+   font-weight: bold;
+   border-radius: 10px;
+   background-color: rgb(250, 250, 143);
+
 }
 
 #display {
@@ -19,6 +24,7 @@ body {
     padding:5px;
     border: 2px solid black;
     margin:10px;
+    background-color: white;
 }
 
 #first-row {
@@ -42,15 +48,31 @@ body {
     flex-grow: 1;
     padding:10px;
     margin:10px;
+    background-color: rgb(161, 68, 68);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 #small-buttons {
     display:flex;
     flex-wrap: wrap;
+   
 }
 
 #small-buttons button {
     padding:10px;
     margin:10px;
     min-width: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.operator {
+    background-color: rgb(150, 111, 61);
+}
+
+.number {
+    background-color: rgb(197, 162, 116);
 }
