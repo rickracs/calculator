@@ -1,0 +1,56 @@
+body {
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    min-width: 400px;
+    max-width: 400px;
+   /* height:600px;*/
+   border: 2px solid black;
+   display:flex;
+   flex-direction: column;
+}
+
+#display {
+    height:80px;
+    padding:5px;
+    border: 2px solid black;
+    margin:10px;
+}
+
+#first-row {
+    height:35px;
+    font-size: 18px;
+    text-align: right;
+}
+
+#second-row {
+    height:45px;
+    font-size: 30px;
+    text-align: right;
+}
+
+#clear-delete {
+    display:flex;
+    /*justify-content: space-around;*/
+}
+
+#clear-delete button {
+    flex-grow: 1;
+    padding:10px;
+    margin:10px;
+}
+
+#small-buttons {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#small-buttons button {
+    padding:10px;
+    margin:10px;
+    min-width: 80px;
+}
